@@ -1,0 +1,15 @@
+{
+  "name": "modern-java",
+  "main": "index.html",
+  "scripts": {
+    "start": "node parcel.js watch",
+    "build": "parcel build index.html presentation.pmd"
+  },
+  "dependencies": {
+    "marked": "^0.7.0",
+    "remark-slide": "https://github.com/gnab/remark.git"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

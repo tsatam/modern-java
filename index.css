@@ -1,0 +1,12 @@
+.remark-container {
+	background-color: #000;
+}
+
+.remark-slide-scaler {
+	box-shadow: none;
+}
+
+.remark-slide-content {
+	color: #eee;
+	background-color: #222;
+}
