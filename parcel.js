@@ -5,7 +5,9 @@ const Path = require("path");
 	const bundler = new Bundler([
 		"./index.html",
 		"./presentation.md"
-	], {});
+	], {
+		publicUrl: "./"
+	});
 
 	bundler.addAssetType("md", require.resolve("parcel-bundler/src/assets/RawAsset"))
 
