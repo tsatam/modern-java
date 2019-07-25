@@ -22214,7 +22214,7 @@ styler.styleDocument();
 require("remark-slide/src/remark.js");
 
 var slideshow = remark.create({
-  sourceUrl: "/presentation.md",
+  sourceUrl: "./presentation.md",
   highlightLanguage: "java",
   highlightStyle: "solarized-dark",
   ratio: "16:9"
@@ -22247,7 +22247,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45499" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35453" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -22423,4 +22423,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","remark.js"], null)
-//# sourceMappingURL=/remark.4dcf8b30.js.map
+//# sourceMappingURL=remark.4dcf8b30.js.map
